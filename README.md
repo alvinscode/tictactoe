@@ -4,7 +4,7 @@ tictactoe is a simple game of tic tac toe made with JavaScript, HTML, and CSS.
 
 ## Usage
 
-https://preeminent-frangollo-6bf6a5.netlify.app - Deployment
+https://tictactoe-t5hg.onrender.com/ - Deployment
 
 Click on the grid you desire to place an "X" to start the game, player 2 will click on the grid where they desire to place the "O".
 Continue clicking on the grids until a winner is decided.
@@ -14,7 +14,18 @@ Continue clicking on the grids until a winner is decided.
 ```bash
 $ git clone git@github.com:alvinscode/tictactoe.git
 $ cd tictactoe
+```
+
+If local environment using WSL/Ubuntu:
+
+```bash
 $ explorer.exe index.html
+```
+
+If local environment using Mac:
+
+```bash
+$ open index.html
 ```
 
 ## Contributor's Guide
