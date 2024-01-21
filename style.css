@@ -11,7 +11,7 @@ section {
     margin: 50px auto;
 }
 .cell {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker";
     width: 100px;
     height: 100px;
     box-shadow: 0 0 0 1px #333333;
