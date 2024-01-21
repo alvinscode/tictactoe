@@ -68,6 +68,15 @@ function handleResultValidation() {
         gameActive = false;
         return;
     }
+/* check array for values that are not populated */
+    let roundDraw = !gameState.includes("");
+    if (roundDraw) {
+        statusDisplay.innerHTML = drawMessage();
+        gameActive = false;
+        return;
+    }
+/* if reached this point, continue game */
+    handlePlayerChange();
 }
 
 document.querySelectorALL('.cell').forEach(cell =>
