@@ -1,6 +1,6 @@
 # tictactoe
 
-Tic Tac Toe is a simple game of tic tac toe made with JavaScript, HTML, and CSS.
+tictactoe is a simple game of tic tac toe made with JavaScript, HTML, and CSS.
 
 ## Usage
 
