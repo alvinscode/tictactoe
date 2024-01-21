@@ -85,6 +85,6 @@ function handleResultValidation() {
     handlePlayerChange();
 }
 
-document.querySelectorALL('.cell').forEach(cell =>
+document.querySelectorAll('.cell').forEach(cell =>
 cell.addEventListener('click', handleCellClick));
 document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
